@@ -46,7 +46,6 @@ var getStatusCodeAsync = function (url) {
       if (err){
         reject(err);
       } else {
-        console.log('-------------->', response)
         resolve(response.statusCode);
       }
     });

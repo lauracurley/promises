@@ -55,7 +55,6 @@ var getStatusCode = function (url, callback) {
     if (!response){
       callback(err, response);
     } else {
-      console.log('-------------->', response)
       callback(err, response.statusCode);
     }
   });
